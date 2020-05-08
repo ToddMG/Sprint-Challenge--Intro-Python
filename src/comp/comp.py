@@ -82,8 +82,7 @@ print(f)
 print("All names uppercase:")
 g = []
 for human in humans:
-    if 26 < human.age < 33:
-        g.append((human.name.upper(), human.age + 5))
+    g.append(Human(human.name.upper(), human.age + 5))
 print(g)
 
 # Write a list comprehension that contains the square root of all the ages.
