@@ -15,7 +15,7 @@ class CityreaderTests(unittest.TestCase):
     self.cities = cityreader()
     self.expected = [
       City("Seattle", 47.6217,-122.3238),
-      City("Richmond", 37.5294,-77.4755),
+      City("Richmond",37.5294,-77.4755),
       City("Virginia Beach", 36.7335,-76.0435),
       City("Washington", 38.9047,-77.0163),
       City("Milwaukee", 43.064,-87.9669),
